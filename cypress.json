@@ -1,0 +1,23 @@
+{
+    "$schema": "https://raw.githubusercontent.com/cypress-io/cypress/develop/cli/schema/cypress.schema.json",
+    "baseUrl": "https://dev.deel.wtf/",
+    "apiUrl": "https://api-dev.letsdeel.com/login",
+    "defaultCommandTimeout": 20000,
+    "env": {
+        "email": "@addYourEmail",
+        "password": "@addYourPassword",
+        "contractName": "Deel",
+        "jobTitle": "Quality Assurance Engineer",
+        "rate": "1,000",
+        "currency": "GBP - British Pound",
+        "period": "Week",
+        "country": "United States",
+        "state": "Colorado"
+    },
+    "testFiles": "**/*.*spec.*",
+    "video": false,
+    "reporter": "cypress-multi-reporters",
+    "reporterOptions":{
+        "configFile": "reporter-config.json"
+    }
+}

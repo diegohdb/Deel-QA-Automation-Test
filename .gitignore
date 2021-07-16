@@ -1,0 +1,10 @@
+# dependencies
+node_modules
+
+# reports
+allure-report
+allure-results
+mochawesome-report
+
+# others
+.DS-Store
