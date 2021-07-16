@@ -47,7 +47,9 @@ npm run report:allure -- To only report
 npm run test:chrome:allure -- To execute and report
 ```
 
-The execution will run headless and using the Chrome (other browser can be added on package.json scripts). After execution the Allure report will be displayed on browser.
+The execution will run headless and using the Chrome (other browser can be added on package.json scripts). 
+
+After execution the Allure report will be displayed on browser.
 
 
 ## Author
